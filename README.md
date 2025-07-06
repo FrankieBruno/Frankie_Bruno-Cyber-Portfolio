@@ -1,88 +1,84 @@
-# Frankie-Cyber — Cybersecurity Portfolio
+# Frankie Bruno Jr. — Cybersecurity Portfolio
 
-Welcome to my cybersecurity portfolio. I’m a passionate cybersecurity professional focused on protecting systems, networks, and data through ethical hacking, vulnerability management, and cloud security practices.
+Welcome to my cybersecurity portfolio! I’m an aspiring SOC Analyst with a dedication to solving complex security problems and continuously building hands-on skills in threat detection, incident response, and security automation.
 
 <a href="https://www.linkedin.com/in/frankiebrunojr/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" alt="LinkedIn"/>
 </a>
 
+---
+
+## 🎯 Objective
+
+My journey in technology has fueled a passion for cybersecurity, and I’m eager to apply my skills in a Security Operations Center (SOC) as a Tier 1 Analyst. I’m focused on helping organizations detect, respond to, and prevent threats in a constantly evolving landscape.
 
 ---
 
-About Me
+## 🧰 Skills & Associated Projects
 
-- 🎓 Fullstack CyberSecurity Certificate (e.g., CompTIA Security+, Google Cybersecurity Certificate, OSCP, etc.)
-- 🧑‍💻 SOC Analyst
-- 🗂️ Background in [Relevant Field] (e.g., IT Support, Networking, Cloud Computing)
-- 🚀 Actively developing real-world skills through labs, projects, and CTF challenges.
-
----
-
-## 🗂️ Featured Projects
-
-### ✅ [Project Title 1]
-**Description:** Short 1–2 sentence overview — what you did, why it matters.  
-**Key Skills:** [e.g., Metasploit, Kali Linux, Nmap, Burp Suite]  
-**Highlights:**
-- 🔍 Tools: [List tools]
-- 📂 Repo: [Link to project folder]
+| Skill                                   | Associated Project                       |
+|-----------------------------------------|------------------------------------------|
+| SIEM Implementation and Log Analysis    | [Detection Lab](#detection-lab)          |
+| Network Traffic Monitoring & Attack Detection | [Detection Lab](#detection-lab)     |
+| Security Automation with Shuffle SOAR   | [SOC Automation Project](#soc-automation-project) |
+| Incident Response Planning & Execution  | [SOC Automation Project](#soc-automation-project) |
+| Case Management with TheHive            | [SOC Automation Project](#soc-automation-project) |
+| Scripting & Automation for Threat Mitigation | [SOC Automation Project](#soc-automation-project) |
 
 ---
 
-### ✅ [Project Title 2]
-**Description:** Short overview — focus on impact and what you learned.  
-**Key Skills:** [e.g., Cloud security, IAM policies, AWS security best practices]  
-**Highlights:**
-- ☁️ Tools: [List tools]
-- 📂 Repo: [Link to project folder]
+## 🛠️ Tools
+
+**Network:** Wireshark, Zeek, Suricata  
+**Endpoint:** OSQuery, Sysmon, Velociraptor  
+**SIEM:** Splunk, Elastic Stack, Wazuh  
+**Automation:** Shuffle SOAR, Python, Bash  
+**Case Management:** TheHive
 
 ---
 
-### ✅ [Project Title 3]
-**Description:** Example: Custom Python script for automating vulnerability scans.  
-**Key Skills:** [e.g., Python, Vulnerability Management, Reporting]  
-**Highlights:**
-- 📜 Writeups: Included in the `/docs` folder.
-- 📂 Repo: [Link to project folder]
+## 📜 Certifications
+
+- CompTIA Security+
+- Google Cybersecurity Certificate
+- Cyber Security Certificate from [LSU-Full-stack-bootcamp]
+- Web Development Certificate from [Nashville Software School]
 
 ---
 
-## 🧰 Technical Skills
+## 🚀 Projects
 
-| Category        | Tools & Technologies                                   |
-|-----------------|--------------------------------------------------------|
-| 🛡️ Offensive Security | Metasploit, Nmap, Burp Suite, Wireshark, Netcat   |
-| 🗂️ Defensive Security | SIEM (Splunk/ELK), IDS/IPS, Vulnerability Scanners |
-| ☁️ Cloud Security     | AWS, Azure, IAM, Security Groups, Logging         |
-| 🔤 Scripting & Automation | Python, Bash, PowerShell                         |
-| ⚙️ OS & Networking    | Windows Server, Linux (Kali, Ubuntu), TCP/IP, Firewalls |
+### 🔍 Detection Lab
+A custom lab environment designed to simulate real-world attack scenarios and detection use cases. Includes SIEM setup, log forwarding, and network traffic monitoring.
+
+[View Project](https://github.com/YOURUSERNAME/DetectionLab) (replace with your repo link)
 
 ---
 
-## 📚 Certifications & Training
+### ⚙️ SOC Automation Project
+A hands-on lab focused on automating incident response workflows using Shuffle SOAR and TheHive. Demonstrates scripting, case management, and threat mitigation techniques.
 
-- 📜 [Certification Name] — [Issuing Organization]
-- 📜 [Certification Name] — [Issuing Organization]
-- 🧑‍🎓 Ongoing: [Course or Lab Platform]
+[View Project](https://github.com/YOURUSERNAME/SOCAutomationLab) (replace with your repo link)
 
 ---
 
 ## 📫 Connect with Me
 
-- 🌐 [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE/)
-- ✉️ [Your Email]
-- 🗂️ [Your Personal Website or Blog] (optional)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/frankiebrunojr/)
+
+✉️ frankie@example.com (replace with your real email)
 
 ---
 
-## 🚀 How to Use This Repo
+## 🗂️ Repo Structure
 
-This repository contains:
-- 📁 `/projects`: Source code, scripts, configurations, and documentation for my security projects.
-- 🗒️ `/docs`: Writeups, reports, and case studies.
-- 🏴 `/CTFs`: Solutions and walkthroughs for CTF challenges (where allowed).
+- `/projects`: Source code, lab configurations, and documentation
+- `/docs`: Writeups, reports, and use-case demonstrations
 
-Feel free to explore — feedback and collaboration are welcome!
+---
+
+> “Security is not a product, but a process.” — Bruce Schneier
+
 
 
 ---

@@ -2,6 +2,8 @@
 
 Welcome to my cybersecurity portfolio! I’m a passionate cybersecurity professional focused on protecting systems, networks, and data through ethical hacking, vulnerability management, and cloud security practices.
 
+[![LinkedIn](https://path-to-your-button-image.png)](https://www.linkedin.com/in/frankiebrunojr/)
+
 ---
 
 ## 🔒 About Me

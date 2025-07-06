@@ -1,6 +1,6 @@
 # Frankie-Cyber — Cybersecurity Portfolio
 
-Welcome to my cybersecurity portfolio! I’m a passionate cybersecurity professional focused on protecting systems, networks, and data through ethical hacking, vulnerability management, and cloud security practices.
+Welcome to my cybersecurity portfolio. I’m a passionate cybersecurity professional focused on protecting systems, networks, and data through ethical hacking, vulnerability management, and cloud security practices.
 
 <a href="https://www.linkedin.com/in/frankiebrunojr/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" alt="LinkedIn"/>
@@ -9,10 +9,10 @@ Welcome to my cybersecurity portfolio! I’m a passionate cybersecurity professi
 
 ---
 
-## 🔒 About Me
+About Me
 
-- 🎓 [Your Certifications] (e.g., CompTIA Security+, Google Cybersecurity Certificate, OSCP, etc.)
-- 🧑‍💻 Aspiring [Role] (e.g., SOC Analyst, Penetration Tester, Cloud Security Engineer)
+- 🎓 Fullstack CyberSecurity Certificate (e.g., CompTIA Security+, Google Cybersecurity Certificate, OSCP, etc.)
+- 🧑‍💻 SOC Analyst
 - 🗂️ Background in [Relevant Field] (e.g., IT Support, Networking, Cloud Computing)
 - 🚀 Actively developing real-world skills through labs, projects, and CTF challenges.
 
@@ -84,11 +84,6 @@ This repository contains:
 
 Feel free to explore — feedback and collaboration are welcome!
 
----
-
-## 📄 License
-
-[Optional: Include if you want to specify usage terms. E.g., MIT License, Creative Commons, or "All Rights Reserved".]
 
 ---
 

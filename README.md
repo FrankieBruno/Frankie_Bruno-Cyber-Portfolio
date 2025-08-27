@@ -48,17 +48,11 @@ My journey in technology has fueled a passion for cybersecurity, and I’m eager
 
 ## 🚀 Projects
 
-### 🔍 Detection Lab
-A custom lab environment designed to simulate real-world attack scenarios and detection use cases. Includes SIEM setup, log forwarding, and network traffic monitoring.
-
-[View Project](https://github.com/YOURUSERNAME/DetectionLab) (replace with your repo link)
-
 ---
 
 ### ⚙️ SOC Automation Project
-A hands-on lab focused on automating incident response workflows using Shuffle SOAR and TheHive. Demonstrates scripting, case management, and threat mitigation techniques.
 
-[View Project](https://github.com/YOURUSERNAME/SOCAutomationLab) (replace with your repo link)
+Red team adversary emulation lab simulating command injection and reverse shell attacks against a vulnerable web application. Features custom Python scripting for port scanning, payload generation, and C2 communication, with detection and response in Splunk, Sysmon, and Winlogbeat. Uploading soon…
 
 ---
 
@@ -78,8 +72,6 @@ A hands-on lab focused on automating incident response workflows using Shuffle S
 ---
 
 > “Security is not a product, but a process.” — Bruce Schneier
-
-
 
 ---
 

@@ -10,7 +10,7 @@ Welcome to my cybersecurity portfolio! I’m an aspiring SOC Analyst with a dedi
 
 ## 🎯 Objective
 
-My journey in technology has fueled a passion for cybersecurity, and I’m eager to apply my skills in a Security Operations Center (SOC) as a Tier 1 Analyst. I’m focused on helping organizations detect, respond to, and prevent threats in a constantly evolving landscape.
+My journey in technology has inspired a deep passion for cybersecurity, and I am eager to bring my skills to a Security Operations Center (SOC) as a Tier 1 Analyst. I thrive on helping organizations detect, respond to, and prevent threats in today’s constantly evolving digital landscape. Looking ahead, my long term goal is to advance into penetration testing, where I can proactively identify vulnerabilities and strengthen security from the ground up.
 
 ---
 

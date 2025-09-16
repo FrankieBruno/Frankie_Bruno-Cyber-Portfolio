@@ -1,6 +1,6 @@
 # Frankie Bruno Jr. — Cybersecurity Portfolio
 
-Welcome to my cybersecurity portfolio! I’m an aspiring SOC Analyst with a dedication to solving complex security problems and continuously building hands-on skills in threat detection, incident response, and security automation.
+Welcome to my cybersecurity portfolio! I’m an aspiring SOC Analyst with a dedication to solving complex security problems and continuously building hands on skills in threat detection, incident response, and security automation.
 
 <a href="https://www.linkedin.com/in/frankiebrunojr/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" alt="LinkedIn"/>

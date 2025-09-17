@@ -14,16 +14,16 @@ My journey in technology has inspired a deep passion for cybersecurity, and I am
 
 ---
 
-## 🧰 Skills & Associated Projects
+## 📂 Projects
 
-| Skill                                   | Associated Project                       |
-|-----------------------------------------|------------------------------------------|
-| SIEM Implementation and Log Analysis    | [Detection Lab](#detection-lab)          |
-| Network Traffic Monitoring & Attack Detection | [Detection Lab](#detection-lab)     |
-| Security Automation with Shuffle SOAR   | [SOC Automation Project](#soc-automation-project) |
-| Incident Response Planning & Execution  | [SOC Automation Project](#soc-automation-project) |
-| Case Management with TheHive            | [SOC Automation Project](#soc-automation-project) |
-| Scripting & Automation for Threat Mitigation | [SOC Automation Project](#soc-automation-project) |
+- [🛰️ Detection Lab — Network Traffic Analysis](projects_detection-lab/README.md)  
+- [⚡ SOC Automation Project](projects_soc-automation/README.md)  
+- [🔴 Capstone Project — Red Team Offense Simulation](projects_penetration-testing/README.md)  
+- [🖥️ System Administration & Security Policy Enforcement](projects_system-administration/README.md)  
+- [🛡️ Black Sentinel Project](project_black_sentinel/README.md)  
+- [📂 Supplementary Projects & Case Studies](supplementary_projects/README.md)  
+
+
 
 ---
 

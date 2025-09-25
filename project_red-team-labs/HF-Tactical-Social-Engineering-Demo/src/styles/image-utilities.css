@@ -1,0 +1,152 @@
+/* H&F Tactical - Image Utility Classes */
+
+/* Image sizing utilities */
+.img-small {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+.img-medium {
+    width: 120px !important;
+    height: 120px !important;
+}
+
+.img-large {
+    width: 180px !important;
+    height: 135px !important;
+}
+
+.img-xl {
+    width: 240px !important;
+    height: 180px !important;
+}
+
+/* Aspect ratio utilities */
+.img-square {
+    aspect-ratio: 1/1 !important;
+}
+
+.img-landscape {
+    aspect-ratio: 4/3 !important;
+}
+
+.img-portrait {
+    aspect-ratio: 3/4 !important;
+}
+
+/* Object fit utilities */
+.img-cover {
+    object-fit: cover !important;
+}
+
+.img-contain {
+    object-fit: contain !important;
+}
+
+.img-fill {
+    object-fit: fill !important;
+}
+
+/* Border utilities */
+.img-border-thin {
+    border: 1px solid #333 !important;
+}
+
+.img-border-thick {
+    border: 3px solid #ff6b35 !important;
+}
+
+.img-border-glow {
+    border: 2px solid #ff6b35 !important;
+    box-shadow: 0 0 10px rgba(255, 107, 53, 0.5) !important;
+}
+
+/* Shadow utilities */
+.img-shadow-sm {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2) !important;
+}
+
+.img-shadow-md {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important;
+}
+
+.img-shadow-lg {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4) !important;
+}
+
+.img-shadow-tactical {
+    box-shadow: 0 6px 12px rgba(255, 107, 53, 0.3) !important;
+}
+
+/* Hover effects */
+.img-hover-scale:hover {
+    transform: scale(1.05) !important;
+}
+
+.img-hover-glow:hover {
+    box-shadow: 0 0 20px rgba(255, 107, 53, 0.6) !important;
+}
+
+.img-hover-lift:hover {
+    transform: translateY(-5px) !important;
+}
+
+/* Loading states */
+.img-loading {
+    background: linear-gradient(45deg, #333 25%, #444 25%, #444 50%, #333 50%, #333 75%, #444 75%) !important;
+    background-size: 20px 20px !important;
+    animation: loading-pattern 2s linear infinite !important;
+}
+
+/* Responsive image classes */
+@media (max-width: 768px) {
+    .img-responsive-sm {
+        width: 100px !important;
+        height: 100px !important;
+    }
+    
+    .img-responsive-md {
+        width: 120px !important;
+        height: 90px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .img-responsive-sm {
+        width: 80px !important;
+        height: 80px !important;
+    }
+    
+    .img-responsive-md {
+        width: 100px !important;
+        height: 75px !important;
+    }
+}
+
+/* Image quality enhancements */
+.img-crisp {
+    image-rendering: -webkit-optimize-contrast !important;
+    image-rendering: crisp-edges !important;
+}
+
+.img-smooth {
+    image-rendering: auto !important;
+}
+
+/* Position utilities */
+.img-center {
+    object-position: center !important;
+}
+
+.img-top {
+    object-position: top !important;
+}
+
+.img-bottom {
+    object-position: bottom !important;
+}
+
+/* Usage Examples:
+   <img src="..." class="weapon-img img-large img-cover img-shadow-tactical img-hover-scale">
+   <img src="..." class="card-img img-medium img-square img-border-glow img-hover-lift">
+*/

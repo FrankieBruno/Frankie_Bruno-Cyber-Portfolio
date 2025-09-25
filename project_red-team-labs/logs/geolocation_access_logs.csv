@@ -1,0 +1,41 @@
+timestamp,user_id,session_id,source_ip,latitude,longitude,city,state,country,location_type,device_type,user_agent,resource_accessed,action,bytes_transferred,session_duration,risk_score
+2024-07-26 08:15:23,mthompson,SESS001,192.168.1.45,38.9072,-77.0369,Washington,DC,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/inventory/weapons,LOGIN,2048,00:15:32,LOW
+2024-07-26 08:16:45,jrodriguez,SESS002,192.168.1.67,34.0522,-118.2437,Los Angeles,CA,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/customer/profiles,ACCESS,1536,00:08:45,LOW
+2024-07-26 08:18:12,schen,SESS003,192.168.1.23,37.7749,-122.4194,San Francisco,CA,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/admin/users,ACCESS,4096,00:22:15,LOW
+2024-07-26 08:19:34,dwilson,SESS004,192.168.1.89,39.7392,-104.9903,Denver,CO,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/shipping/orders,ACCESS,3072,00:12:30,LOW
+2024-07-26 08:21:56,unknown,SESS005,203.45.67.89,55.7558,37.6176,Moscow,,Russia,Unknown,Mobile,Mozilla/5.0 (Android 10; Mobile),/admin,BLOCKED,0,00:00:00,CRITICAL
+2024-07-26 08:23:18,mthompson,SESS006,192.168.1.45,38.9072,-77.0369,Washington,DC,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/reports/quarterly,ACCESS,8192,00:35:20,LOW
+2024-07-26 08:25:40,jrodriguez,SESS007,192.168.1.67,34.0522,-118.2437,Los Angeles,CA,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/inventory/defense,ACCESS,2560,00:18:45,LOW
+2024-07-26 08:27:02,schen,SESS008,192.168.1.23,37.7749,-122.4194,San Francisco,CA,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/var/log/system,ACCESS,1024,00:45:12,LOW
+2024-07-26 08:29:24,dwilson,SESS009,192.168.1.89,39.7392,-104.9903,Denver,CO,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/warehouse/stock,ACCESS,4608,00:28:33,LOW
+2024-07-26 08:31:46,unknown,SESS010,185.23.45.67,39.9042,116.4074,Beijing,,China,Unknown,Mobile,Mozilla/5.0 (Android 11; Mobile),/customer/data,BLOCKED,0,00:00:00,HIGH
+2024-07-26 08:33:08,mthompson,SESS011,192.168.1.45,38.9072,-77.0369,Washington,DC,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/customer/military,ACCESS,6144,00:42:18,LOW
+2024-07-26 08:35:30,jrodriguez,SESS012,192.168.1.67,34.0522,-118.2437,Los Angeles,CA,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/pricing/government,ACCESS,3584,00:25:45,LOW
+2024-07-26 08:37:52,schen,SESS013,192.168.1.23,37.7749,-122.4194,San Francisco,CA,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/backup/database,ACCESS,12288,01:15:22,MEDIUM
+2024-07-26 08:40:14,dwilson,SESS014,192.168.1.89,39.7392,-104.9903,Denver,CO,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/suppliers/contact,ACCESS,2048,00:14:56,LOW
+2024-07-26 08:42:36,unknown,SESS015,167.89.12.34,35.6762,139.6503,Tokyo,,Japan,Unknown,Mobile,Mozilla/5.0 (iPhone; CPU iPhone OS 14_0),/login,BLOCKED,0,00:00:00,HIGH
+2024-07-26 08:44:58,mthompson,SESS016,192.168.1.45,38.9072,-77.0369,Washington,DC,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/contracts/classified,ACCESS,16384,00:58:30,MEDIUM
+2024-07-26 08:47:20,jrodriguez,SESS017,192.168.1.67,34.0522,-118.2437,Los Angeles,CA,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/leads/law_enforcement,ACCESS,4096,00:32:15,LOW
+2024-07-26 08:49:42,schen,SESS018,192.168.1.23,37.7749,-122.4194,San Francisco,CA,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/security/audit,ACCESS,8192,00:48:45,LOW
+2024-07-26 08:52:04,dwilson,SESS019,192.168.1.89,39.7392,-104.9903,Denver,CO,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/logistics/tracking,ACCESS,2560,00:19:30,LOW
+2024-07-26 08:54:26,unknown,SESS020,198.76.54.32,51.5074,-0.1278,London,,UK,Unknown,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/employee/records,BLOCKED,0,00:00:00,HIGH
+2024-07-26 08:56:48,mthompson,SESS021,192.168.1.45,38.9072,-77.0369,Washington,DC,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/clearance/verification,ACCESS,5120,00:38:22,MEDIUM
+2024-07-26 08:59:10,jrodriguez,SESS022,192.168.1.67,34.0522,-118.2437,Los Angeles,CA,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/training/materials,ACCESS,7168,00:45:18,LOW
+2024-07-26 09:01:32,schen,SESS023,192.168.1.23,37.7749,-122.4194,San Francisco,CA,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/network/monitoring,ACCESS,3072,00:28:45,LOW
+2024-07-26 09:03:54,dwilson,SESS024,192.168.1.89,39.7392,-104.9903,Denver,CO,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/compliance/reports,ACCESS,9216,00:52:30,LOW
+2024-07-26 09:06:16,unknown,SESS025,156.78.90.12,48.8566,2.3522,Paris,,France,Unknown,Mobile,Mozilla/5.0 (Android 12; Mobile),/database,BLOCKED,0,00:00:00,CRITICAL
+2024-07-26 09:08:38,mthompson,SESS026,192.168.1.45,38.9072,-77.0369,Washington,DC,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/export/licenses,ACCESS,4608,00:35:45,MEDIUM
+2024-07-26 09:11:00,jrodriguez,SESS027,192.168.1.67,34.0522,-118.2437,Los Angeles,CA,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/background/checks,ACCESS,6656,00:41:20,MEDIUM
+2024-07-26 09:13:22,schen,SESS028,192.168.1.23,37.7749,-122.4194,San Francisco,CA,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/firewall/config,ACCESS,2048,00:22:15,LOW
+2024-07-26 09:15:44,dwilson,SESS029,192.168.1.89,39.7392,-104.9903,Denver,CO,USA,Office,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/quality/control,ACCESS,3584,00:26:30,LOW
+2024-07-26 09:18:06,unknown,SESS030,134.56.78.90,52.5200,13.4050,Berlin,,Germany,Unknown,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/admin/panel,BLOCKED,0,00:00:00,HIGH
+2024-07-26 09:20:28,field_agent_001,SESS031,98.123.45.67,32.7767,-96.7970,Dallas,TX,USA,Field,Mobile,Mozilla/5.0 (iPhone; CPU iPhone OS 15_0),/mobile/inventory,ACCESS,1024,00:05:15,LOW
+2024-07-26 09:22:50,field_agent_002,SESS032,76.234.56.78,25.7617,-80.1918,Miami,FL,USA,Field,Mobile,Mozilla/5.0 (Android 13; Mobile),/mobile/orders,ACCESS,2048,00:08:30,LOW
+2024-07-26 09:25:12,contractor_001,SESS033,45.123.67.89,41.8781,-87.6298,Chicago,IL,USA,Remote,Laptop,Mozilla/5.0 (Macbook; Intel Mac OS X 10_15_7),/contractor/portal,ACCESS,3072,00:25:45,MEDIUM
+2024-07-26 09:27:34,unknown,SESS034,87.65.43.21,59.9139,10.7522,Oslo,,Norway,Unknown,Mobile,Mozilla/5.0 (Android 11; Mobile),/api/data,BLOCKED,0,00:00:00,HIGH
+2024-07-26 09:29:56,vendor_001,SESS035,123.45.67.89,40.7128,-74.0060,New York,NY,USA,Vendor,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/vendor/catalog,ACCESS,5120,00:35:20,LOW
+2024-07-26 09:32:18,field_agent_003,SESS036,67.89.12.34,29.7604,-95.3698,Houston,TX,USA,Field,Mobile,Mozilla/5.0 (iPhone; CPU iPhone OS 14_8),/field/reports,ACCESS,1536,00:12:15,LOW
+2024-07-26 09:34:40,unknown,SESS037,198.45.67.12,45.4215,-75.6972,Ottawa,,Canada,Unknown,Desktop,Mozilla/5.0 (Windows NT 10.0; Win64; x64),/sensitive/data,BLOCKED,0,00:00:00,CRITICAL
+2024-07-26 09:37:02,contractor_002,SESS038,89.123.45.67,33.4484,-112.0740,Phoenix,AZ,USA,Remote,Laptop,Mozilla/5.0 (Macbook; Intel Mac OS X 10_15_7),/contractor/billing,ACCESS,2560,00:18:45,MEDIUM
+2024-07-26 09:39:24,field_agent_004,SESS039,56.78.90.12,47.6062,-122.3321,Seattle,WA,USA,Field,Mobile,Mozilla/5.0 (Android 12; Mobile),/field/inventory,ACCESS,1024,00:07:30,LOW
+2024-07-26 09:41:46,unknown,SESS040,176.34.56.78,-33.8688,151.2093,Sydney,,Australia,Unknown,Mobile,Mozilla/5.0 (iPhone; CPU iPhone OS 15_2),/admin/access,BLOCKED,0,00:00:00,HIGH

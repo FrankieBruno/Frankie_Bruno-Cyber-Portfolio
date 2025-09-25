@@ -1,0 +1,26 @@
+order_id,date,customer_name,customer_organization,customer_clearance,sales_rep,product_id,product_name,quantity,unit_price,total_amount,payment_method,shipping_address,order_status,delivery_date
+ORD001,2024-07-15,John Mitchell,FBI Field Office,Secret,Marcus Thompson,WPN001,AR-15 Tactical Rifle,12,2850.00,34200.00,Government Purchase Order,935 Pennsylvania Ave NW Washington DC,Delivered,2024-07-22
+ORD002,2024-07-16,Sarah Rodriguez,LAPD SWAT,Confidential,Jessica Rodriguez,DEF001,Level IIIA Ballistic Vest,25,1250.00,31250.00,Credit Card,100 W 1st St Los Angeles CA,Delivered,2024-07-23
+ORD003,2024-07-17,Michael Chen,US Army Rangers,Top Secret,Marcus Thompson,WPN003,M4 Carbine,8,3200.00,25600.00,Military Contract,Fort Benning GA,Shipped,2024-07-28
+ORD004,2024-07-18,David Wilson,Blackwater Security,Secret,David Wilson,SUR001,Thermal Imaging Camera,6,12000.00,72000.00,Corporate Check,1750 K St NW Washington DC,Processing,2024-07-30
+ORD005,2024-07-19,Lisa Anderson,DEA Task Force,Secret,Jessica Rodriguez,WPN005,SIG P320 Tactical,15,650.00,9750.00,Government Purchase Order,8701 Morrissette Dr Springfield VA,Delivered,2024-07-26
+ORD006,2024-07-20,Robert Taylor,Navy SEALs,TS/SCI,Marcus Thompson,EMP001,Portable EMP Generator,3,15000.00,45000.00,Military Contract,Naval Amphibious Base Coronado CA,Shipped,2024-08-01
+ORD007,2024-07-21,Jennifer Brown,ATF,Confidential,Samuel Chen,WPN006,Mossberg 500 Tactical,20,485.00,9700.00,Government Purchase Order,99 New York Ave NE Washington DC,Delivered,2024-07-28
+ORD008,2024-07-22,Christopher Lee,CIA Operations,TS/SCI,David Wilson,SUR003,Drone Surveillance Kit,2,85000.00,170000.00,Classified Contract,Langley VA,Processing,2024-08-05
+ORD009,2024-07-23,Amanda Garcia,Border Patrol,Secret,Jessica Rodriguez,DEF002,Tactical Helmet,30,1850.00,55500.00,Government Purchase Order,24000 Avila Rd Laguna Niguel CA,Shipped,2024-07-30
+ORD010,2024-07-24,Kevin Martinez,US Marshals,Secret,Marcus Thompson,WPN002,AK-47 Tactical Variant,10,1950.00,19500.00,Government Purchase Order,2604 Jefferson Davis Hwy Alexandria VA,Processing,2024-08-02
+ORD011,2024-07-25,Rachel Johnson,Secret Service,Top Secret,Samuel Chen,COM001,Encrypted Radio System,18,8500.00,153000.00,Government Purchase Order,245 Murray Ln SW Washington DC,Shipped,2024-08-01
+ORD012,2024-07-26,Thomas White,Marine Force Recon,Top Secret,David Wilson,WPN004,Precision Sniper Rifle,4,8500.00,34000.00,Military Contract,Camp Pendleton CA,Processing,2024-08-03
+ORD013,2024-07-15,Maria Gonzalez,Homeland Security,Secret,Jessica Rodriguez,NLT001,TASER X26P,40,1200.00,48000.00,Government Purchase Order,245 Murray Ln SW Washington DC,Delivered,2024-07-22
+ORD014,2024-07-16,James Davis,State Police,Confidential,Marcus Thompson,DEF003,Ballistic Shield,12,2200.00,26400.00,State Contract,1441 McCormick Dr Largo MD,Delivered,2024-07-23
+ORD015,2024-07-17,Patricia Miller,FBI HRT,Top Secret,Samuel Chen,EMP003,Handheld EMP Disruptor,6,8500.00,51000.00,Government Purchase Order,935 Pennsylvania Ave NW Washington DC,Shipped,2024-07-29
+ORD016,2024-07-18,Daniel Wilson,Air Force Security,Secret,David Wilson,SUR002,Night Vision Goggles,8,42000.00,336000.00,Military Contract,Joint Base Andrews MD,Processing,2024-08-04
+ORD017,2024-07-19,Linda Moore,ICE,Confidential,Jessica Rodriguez,COM002,Satellite Phone,25,1650.00,41250.00,Government Purchase Order,500 12th St SW Washington DC,Delivered,2024-07-26
+ORD018,2024-07-20,Mark Taylor,Delta Force,TS/SCI,Marcus Thompson,WPN001,AR-15 Tactical Rifle,16,2850.00,45600.00,Classified Contract,Fort Bragg NC,Shipped,2024-08-02
+ORD019,2024-07-21,Susan Anderson,Capitol Police,Secret,Samuel Chen,DEF004,Riot Gear Set,35,890.00,31150.00,Government Purchase Order,119 D St NE Washington DC,Delivered,2024-07-28
+ORD020,2024-07-22,Paul Jackson,SOCOM,TS/SCI,David Wilson,EMP002,Vehicle EMP Device,2,25000.00,50000.00,Military Contract,MacDill AFB FL,Processing,2024-08-06
+ORD021,2024-07-23,Carol Thomas,US Park Police,Confidential,Jessica Rodriguez,NLT002,Pepper Spray Launcher,50,450.00,22500.00,Government Purchase Order,1100 Ohio Dr SW Washington DC,Shipped,2024-07-31
+ORD022,2024-07-24,Steven Harris,Treasury Enforcement,Secret,Marcus Thompson,COM003,Tactical Headset,60,850.00,51000.00,Government Purchase Order,1500 Pennsylvania Ave NW Washington DC,Processing,2024-08-01
+ORD023,2024-07-25,Nancy Clark,Customs Enforcement,Confidential,Samuel Chen,ACC001,Tactical Flashlight,100,285.00,28500.00,Government Purchase Order,24000 Avila Rd Laguna Niguel CA,Shipped,2024-08-02
+ORD024,2024-07-26,Gary Lewis,National Guard,Secret,David Wilson,AMM001,5.56x45mm NATO,5000,0.85,4250.00,Military Contract,111 S George Mason Dr Arlington VA,Processing,2024-08-05
+ORD025,2024-07-15,Helen Walker,NCIS,Top Secret,Jessica Rodriguez,WPN005,SIG P320 Tactical,22,650.00,14300.00,Government Purchase Order,27130 Telegraph Rd Quantico VA,Delivered,2024-07-22

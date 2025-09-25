@@ -1,0 +1,21 @@
+customer_id,organization_name,contact_person,email,phone,address,city,state,zip,organization_type,security_clearance,account_status,credit_limit,total_purchases,last_order_date,assigned_sales_rep
+CUST001,FBI Field Office,John Mitchell,j.mitchell@fbi.gov,202-555-0101,935 Pennsylvania Ave NW,Washington,DC,20535,Federal Law Enforcement,Secret,Active,500000,156780.50,2024-07-15,Marcus Thompson
+CUST002,LAPD SWAT,Sarah Rodriguez,s.rodriguez@lapd.org,213-555-0102,100 W 1st St,Los Angeles,CA,90012,Local Law Enforcement,Confidential,Active,250000,89450.75,2024-07-16,Jessica Rodriguez
+CUST003,US Army Rangers,Michael Chen,m.chen@army.mil,706-555-0103,Fort Benning,Columbus,GA,31905,Military,Top Secret,Active,1000000,342150.00,2024-07-17,Marcus Thompson
+CUST004,Blackwater Security,David Wilson,d.wilson@blackwater.com,703-555-0104,1750 K St NW,Washington,DC,20006,Private Security,Secret,Active,750000,245680.25,2024-07-18,David Wilson
+CUST005,DEA Task Force,Lisa Anderson,l.anderson@dea.gov,202-555-0105,8701 Morrissette Dr,Springfield,VA,22152,Federal Law Enforcement,Secret,Active,400000,127890.00,2024-07-19,Jessica Rodriguez
+CUST006,Navy SEALs,Robert Taylor,r.taylor@navy.mil,619-555-0106,Naval Amphibious Base,Coronado,CA,92155,Military,TS/SCI,Active,1500000,567230.75,2024-07-20,Marcus Thompson
+CUST007,ATF,Jennifer Brown,j.brown@atf.gov,202-555-0107,99 New York Ave NE,Washington,DC,20226,Federal Law Enforcement,Confidential,Active,300000,78450.50,2024-07-21,Samuel Chen
+CUST008,CIA Operations,Christopher Lee,c.lee@cia.gov,703-555-0108,Langley,McLean,VA,22101,Intelligence,TS/SCI,Active,2000000,892340.00,2024-07-22,David Wilson
+CUST009,Border Patrol,Amanda Garcia,a.garcia@cbp.dhs.gov,949-555-0109,24000 Avila Rd,Laguna Niguel,CA,92677,Federal Law Enforcement,Secret,Active,600000,198760.25,2024-07-23,Jessica Rodriguez
+CUST010,US Marshals,Kevin Martinez,k.martinez@usms.doj.gov,703-555-0110,2604 Jefferson Davis Hwy,Alexandria,VA,22301,Federal Law Enforcement,Secret,Active,450000,134520.75,2024-07-24,Marcus Thompson
+CUST011,Secret Service,Rachel Johnson,r.johnson@usss.dhs.gov,202-555-0111,245 Murray Ln SW,Washington,DC,20223,Federal Law Enforcement,Top Secret,Active,800000,289670.50,2024-07-25,Samuel Chen
+CUST012,Marine Force Recon,Thomas White,t.white@usmc.mil,760-555-0112,Camp Pendleton,Oceanside,CA,92055,Military,Top Secret,Active,1200000,445890.00,2024-07-26,David Wilson
+CUST013,Homeland Security,Maria Gonzalez,m.gonzalez@dhs.gov,202-555-0113,245 Murray Ln SW,Washington,DC,20528,Federal Agency,Secret,Active,700000,223450.25,2024-07-15,Jessica Rodriguez
+CUST014,State Police,James Davis,j.davis@mdsp.org,301-555-0114,1441 McCormick Dr,Largo,MD,20774,State Law Enforcement,Confidential,Active,200000,67890.75,2024-07-16,Marcus Thompson
+CUST015,FBI HRT,Patricia Miller,p.miller@fbi.gov,703-555-0115,935 Pennsylvania Ave NW,Washington,DC,20535,Federal Law Enforcement,Top Secret,Active,900000,356780.50,2024-07-17,Samuel Chen
+CUST016,Air Force Security,Daniel Wilson,d.wilson@af.mil,301-555-0116,Joint Base Andrews,Camp Springs,MD,20762,Military,Secret,Active,850000,278940.00,2024-07-18,David Wilson
+CUST017,ICE,Linda Moore,l.moore@ice.dhs.gov,202-555-0117,500 12th St SW,Washington,DC,20536,Federal Law Enforcement,Confidential,Active,350000,98760.25,2024-07-19,Jessica Rodriguez
+CUST018,Delta Force,Mark Taylor,m.taylor@army.mil,910-555-0118,Fort Bragg,Fayetteville,NC,28310,Military,TS/SCI,Active,1800000,678450.75,2024-07-20,Marcus Thompson
+CUST019,Capitol Police,Susan Anderson,s.anderson@uscp.gov,202-555-0119,119 D St NE,Washington,DC,20510,Federal Law Enforcement,Secret,Active,400000,145670.50,2024-07-21,Samuel Chen
+CUST020,SOCOM,Paul Jackson,p.jackson@socom.mil,813-555-0120,MacDill AFB,Tampa,FL,33621,Military,TS/SCI,Active,2500000,1234560.00,2024-07-22,David Wilson

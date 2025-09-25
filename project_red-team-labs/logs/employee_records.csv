@@ -1,0 +1,21 @@
+employee_id,first_name,last_name,email,phone,department,position,hire_date,security_clearance,salary,manager,office_location,emergency_contact,emergency_phone,ssn_last4,access_level
+EMP001,Marcus,Thompson,m.thompson@hftactical.com,555-0123,Sales,Senior Sales Director,2018-03-15,Secret,125000,CEO,Building A - Room 205,Sarah Thompson,555-0124,7834,Level 5
+EMP002,Jessica,Rodriguez,j.rodriguez@hftactical.com,555-0125,Sales,Sales Manager,2019-07-22,Confidential,95000,Marcus Thompson,Building A - Room 207,Carlos Rodriguez,555-0126,9156,Level 4
+EMP003,Samuel,Chen,s.chen@hftactical.com,555-0127,IT,IT Security Manager,2017-11-08,Top Secret,110000,CTO,Building B - Room 301,Linda Chen,555-0128,4672,Level 6
+EMP004,David,Wilson,d.wilson@hftactical.com,555-0129,Operations,Operations Manager,2020-01-12,Secret,105000,COO,Building C - Room 150,Maria Wilson,555-0130,8293,Level 5
+EMP005,Amanda,Foster,a.foster@hftactical.com,555-0131,HR,HR Director,2019-05-18,Confidential,88000,CEO,Building A - Room 101,Robert Foster,555-0132,5417,Level 3
+EMP006,Michael,Barnes,m.barnes@hftactical.com,555-0133,Finance,Finance Manager,2018-09-25,Secret,98000,CFO,Building A - Room 301,Jennifer Barnes,555-0134,7659,Level 4
+EMP007,Rachel,Kim,r.kim@hftactical.com,555-0135,Legal,Legal Counsel,2020-03-10,Top Secret,135000,CEO,Building A - Room 401,James Kim,555-0136,3841,Level 6
+EMP008,Christopher,Davis,c.davis@hftactical.com,555-0137,Sales,Sales Representative,2021-06-14,Confidential,75000,Jessica Rodriguez,Building A - Room 209,Lisa Davis,555-0138,9274,Level 3
+EMP009,Patricia,Miller,p.miller@hftactical.com,555-0139,Operations,Warehouse Supervisor,2019-12-03,Confidential,68000,David Wilson,Building C - Room 120,Thomas Miller,555-0140,6582,Level 3
+EMP010,Kevin,Anderson,k.anderson@hftactical.com,555-0141,IT,Network Administrator,2020-08-17,Secret,82000,Samuel Chen,Building B - Room 305,Susan Anderson,555-0142,1937,Level 4
+EMP011,Lisa,Taylor,l.taylor@hftactical.com,555-0143,Sales,Government Liaison,2018-12-05,Top Secret,115000,Marcus Thompson,Building A - Room 203,Mark Taylor,555-0144,8465,Level 5
+EMP012,Robert,Garcia,r.garcia@hftactical.com,555-0145,Security,Security Officer,2021-02-28,Secret,65000,Samuel Chen,Building A - Lobby,Maria Garcia,555-0146,5729,Level 4
+EMP013,Jennifer,White,j.white@hftactical.com,555-0147,Compliance,Compliance Officer,2019-10-15,Top Secret,92000,Legal Counsel,Building A - Room 403,Daniel White,555-0148,3618,Level 5
+EMP014,Thomas,Brown,t.brown@hftactical.com,555-0149,R&D,Research Director,2017-04-20,TS/SCI,145000,CTO,Building D - Room 201,Carol Brown,555-0150,7294,Level 7
+EMP015,Nancy,Johnson,n.johnson@hftactical.com,555-0151,Admin,Executive Assistant,2020-11-09,Confidential,58000,CEO,Building A - Room 501,Paul Johnson,555-0152,4863,Level 2
+EMP016,Gary,Martinez,g.martinez@hftactical.com,555-0153,Logistics,Shipping Manager,2019-08-12,Confidential,72000,David Wilson,Building C - Room 110,Helen Martinez,555-0154,9157,Level 3
+EMP017,Helen,Lewis,h.lewis@hftactical.com,555-0155,Quality,Quality Assurance,2021-01-25,Secret,78000,Operations Manager,Building C - Room 180,Steven Lewis,555-0156,6428,Level 4
+EMP018,Steven,Clark,s.clark@hftactical.com,555-0157,Sales,International Sales,2018-06-30,Secret,105000,Marcus Thompson,Building A - Room 211,Carol Clark,555-0158,2795,Level 5
+EMP019,Carol,Walker,c.walker@hftactical.com,555-0159,Training,Training Coordinator,2020-04-07,Confidential,68000,HR Director,Building B - Room 150,Gary Walker,555-0160,8361,Level 3
+EMP020,Paul,Hall,p.hall@hftactical.com,555-0161,Maintenance,Facilities Manager,2019-02-14,None,55000,Operations Manager,Building C - Room 100,Nancy Hall,555-0162,5074,Level 2

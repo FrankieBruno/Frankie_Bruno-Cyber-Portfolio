@@ -1,0 +1,447 @@
+/* Product Grid Components */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.product-card {
+    background: linear-gradient(145deg, #1a1a1a, #0f0f0f);
+    border-radius: 15px;
+    padding: 40px 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid #333;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.product-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 107, 53, 0.1), transparent);
+    transition: left 0.5s ease;
+}
+
+.product-card:hover::before {
+    left: 100%;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    border-color: #ff6b35;
+    box-shadow: 0 20px 40px rgba(255, 107, 53, 0.2);
+}
+
+.card-icon {
+    font-size: 3rem;
+    color: #ff6b35;
+    margin-bottom: 20px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #ff6b35;
+    transition: all 0.3s ease;
+    display: block;
+    background-color: #2a2a2a;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.product-card:hover .card-img {
+    transform: scale(1.1);
+    border-color: #fff;
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+.product-card h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.product-card p {
+    color: #ccc;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.feature-list {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.feature-list li {
+    color: #aaa;
+    padding: 5px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.feature-list li::before {
+    content: '▶';
+    color: #ff6b35;
+    position: absolute;
+    left: 0;
+    font-size: 0.8rem;
+}
+
+.card-btn {
+    display: inline-block;
+    background: #ff6b35;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border: 2px solid #ff6b35;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    background: transparent;
+    color: #ff6b35;
+    transform: translateY(-2px);
+}
+
+/* Category Section Styles */
+.category-section {
+    margin-bottom: 80px;
+}
+
+.category-title {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.category-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: #ff6b35;
+}
+
+/* Weapon Card Styles */
+.weapon-card {
+    background: linear-gradient(145deg, #1a1a1a, #0f0f0f);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid #333;
+    position: relative;
+    cursor: pointer;
+}
+
+.weapon-card:hover {
+    transform: translateY(-10px);
+    border-color: #ff6b35;
+    box-shadow: 0 20px 40px rgba(255, 107, 53, 0.2);
+}
+
+.weapon-image {
+    background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
+    padding: 30px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    position: relative;
+    overflow: hidden;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weapon-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M 5 0 L 0 0 0 5" fill="none" stroke="%23333" stroke-width="0.3"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+    opacity: 0.3;
+}
+
+.weapon-image i {
+    font-size: 4rem;
+    color: #ff6b35;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.weapon-img {
+    width: 180px;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+    border: 2px solid #333;
+    transition: all 0.3s ease;
+    display: block;
+    background-color: #2a2a2a;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+}
+
+.weapon-card:hover .weapon-img {
+    border-color: #ff6b35;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 107, 53, 0.3);
+}
+
+/* Image error handling */
+.weapon-img:not([src]),
+.weapon-img[src=""],
+.card-img:not([src]),
+.card-img[src=""] {
+    background-color: #333;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23ff6b35"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+/* Ensure images are visible and properly sized */
+.weapon-image img,
+.card-icon img {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Image quality and positioning */
+.weapon-img,
+.card-img {
+    object-position: center;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+}
+
+/* Loading placeholder for images */
+.weapon-img[src=""],
+.card-img[src=""],
+.weapon-img:not([src]),
+.card-img:not([src]) {
+    background: linear-gradient(45deg, #333 25%, #444 25%, #444 50%, #333 50%, #333 75%, #444 75%);
+    background-size: 20px 20px;
+    animation: loading-pattern 2s linear infinite;
+}
+
+@keyframes loading-pattern {
+    0% { background-position: 0 0; }
+    100% { background-position: 40px 40px; }
+}
+
+/* Responsive image sizing */
+@media (max-width: 768px) {
+    .card-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .weapon-img {
+        width: 160px;
+        height: 120px;
+    }
+
+    .weapon-image {
+        height: 200px;
+        padding: 20px;
+    }
+
+    .card-icon {
+        height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .weapon-img {
+        width: 140px;
+        height: 105px;
+    }
+
+    .weapon-image {
+        height: 180px;
+        padding: 15px;
+    }
+
+    .card-icon {
+        height: 100px;
+    }
+}
+
+/* Large screen optimizations */
+@media (min-width: 1200px) {
+    .card-img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .weapon-img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .weapon-image {
+        height: 240px;
+        padding: 35px;
+    }
+
+    .card-icon {
+        height: 160px;
+    }
+}
+
+.image-placeholder {
+    display: block;
+    color: #ccc;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 2;
+    margin-top: 8px;
+    text-transform: uppercase;
+}
+
+.weapon-info {
+    padding: 30px;
+}
+
+.weapon-info h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.weapon-specs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.spec {
+    background: rgba(255, 107, 53, 0.1);
+    color: #ff6b35;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: 1px solid rgba(255, 107, 53, 0.3);
+}
+
+.spec i {
+    margin-right: 5px;
+}
+
+.weapon-info p {
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.weapon-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.feature {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.weapon-btn {
+    background: #ff6b35;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    border: 2px solid #ff6b35;
+}
+
+.weapon-btn:hover {
+    background: transparent;
+    color: #ff6b35;
+    transform: translateY(-2px);
+}
+
+/* Features Section */
+.features-section {
+    padding: 80px 0;
+    background: #0a0a0a;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.feature-item i {
+    font-size: 2.5rem;
+    color: #ff6b35;
+    margin-bottom: 20px;
+}
+
+.feature-item h4 {
+    font-size: 1.3rem;
+    color: #fff;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.feature-item p {
+    color: #ccc;
+    line-height: 1.6;
+}

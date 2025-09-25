@@ -1,0 +1,31 @@
+product_id,product_name,category,manufacturer,model,price,stock_quantity,reorder_level,supplier_id,last_restocked,security_clearance_required,restricted_item
+WPN001,AR-15 Tactical Rifle,Weapons,Colt Defense,LE6920,2850.00,45,10,SUP001,2024-07-15,Secret,Yes
+WPN002,AK-47 Tactical Variant,Weapons,Arsenal Inc,SLR-107FR,1950.00,23,5,SUP002,2024-07-10,Secret,Yes
+WPN003,M4 Carbine,Weapons,FN Herstal,M4A1,3200.00,18,8,SUP001,2024-07-12,Top Secret,Yes
+WPN004,Precision Sniper Rifle,Weapons,Barrett,M82A1,8500.00,12,3,SUP003,2024-07-08,Top Secret,Yes
+WPN005,SIG P320 Tactical,Weapons,SIG Sauer,P320-M17,650.00,78,20,SUP004,2024-07-18,Confidential,Yes
+WPN006,Mossberg 500 Tactical,Weapons,Mossberg,590A1,485.00,34,15,SUP005,2024-07-14,Confidential,Yes
+DEF001,Level IIIA Ballistic Vest,Defense,Point Blank,Alpha Elite,1250.00,67,25,SUP006,2024-07-16,None,No
+DEF002,Tactical Helmet,Defense,Ops-Core,FAST SF,1850.00,42,15,SUP007,2024-07-11,None,No
+DEF003,Ballistic Shield,Defense,Protech,Tactical Shield,2200.00,28,10,SUP008,2024-07-13,None,No
+DEF004,Riot Gear Set,Defense,Damascus,FlexForce,890.00,35,12,SUP006,2024-07-17,None,No
+EMP001,Portable EMP Generator,EMP,Raytheon,EMP-X1,15000.00,8,2,SUP009,2024-07-05,TS/SCI,Yes
+EMP002,Vehicle EMP Device,EMP,L3Harris,VEMP-200,25000.00,4,1,SUP009,2024-07-03,TS/SCI,Yes
+EMP003,Handheld EMP Disruptor,EMP,BAE Systems,HED-50,8500.00,12,3,SUP010,2024-07-07,Top Secret,Yes
+NLT001,TASER X26P,Non-Lethal,Axon,X26P,1200.00,56,20,SUP011,2024-07-19,None,No
+NLT002,Pepper Spray Launcher,Non-Lethal,PepperBall,TCP,450.00,89,30,SUP012,2024-07-20,None,No
+NLT003,Stun Grenade,Non-Lethal,Combined Systems,CS-9210,85.00,245,50,SUP013,2024-07-18,Confidential,Yes
+SUR001,Thermal Imaging Camera,Surveillance,FLIR,T1020,12000.00,15,5,SUP014,2024-07-09,Secret,Yes
+SUR002,Night Vision Goggles,Surveillance,L3Harris,GPNVG-18,42000.00,6,2,SUP015,2024-07-04,Top Secret,Yes
+SUR003,Drone Surveillance Kit,Surveillance,General Atomics,MQ-1C,85000.00,3,1,SUP016,2024-07-01,TS/SCI,Yes
+COM001,Encrypted Radio System,Communication,Harris,AN/PRC-117G,8500.00,25,8,SUP017,2024-07-12,Secret,Yes
+COM002,Satellite Phone,Communication,Iridium,9575 Extreme,1650.00,18,6,SUP018,2024-07-15,Confidential,No
+COM003,Tactical Headset,Communication,Peltor,ComTac VI,850.00,67,25,SUP019,2024-07-17,None,No
+ACC001,Tactical Flashlight,Accessories,SureFire,M600DF,285.00,156,50,SUP020,2024-07-21,None,No
+ACC002,Laser Sight,Accessories,Crimson Trace,CMR-206,320.00,89,30,SUP021,2024-07-19,None,No
+ACC003,Scope Mount,Accessories,LaRue Tactical,LT104,195.00,78,25,SUP022,2024-07-20,None,No
+ACC004,Bipod,Accessories,Harris,S-BRM,165.00,92,35,SUP023,2024-07-18,None,No
+AMM001,5.56x45mm NATO,Ammunition,Federal,XM193,0.85,15000,2000,SUP024,2024-07-22,Secret,Yes
+AMM002,7.62x39mm,Ammunition,Wolf,FMJ,0.65,8500,1500,SUP025,2024-07-21,Secret,Yes
+AMM003,9mm Luger,Ammunition,Speer,Gold Dot,1.25,12000,2500,SUP026,2024-07-20,Confidential,Yes
+AMM004,.50 BMG,Ammunition,Barrett,Match Grade,8.50,500,100,SUP027,2024-07-15,Top Secret,Yes

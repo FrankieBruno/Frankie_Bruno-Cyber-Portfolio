@@ -1,0 +1,62 @@
+# Black Sentinel Demo Video Transcript
+# Authors: Hunter McShan & Frankie Bruno
+# Duration: ~5:30 minutes
+
+[0:00:00] HUNTER: Hello, I'm Hunter McShan, and welcome to HNF attack simulation. Here's our Python script that runs a scan on a local network with parameters defined by the user, such as the subnet range and the type of machine they would like to attack. They can also generate a payload at the end, depending on what they find. Here we can see there's an IP address found that is a Windows machine running an Apache web server over port 80.
+
+[0:00:30] HUNTER: So we're going to enter that IP address, the protocol we want to attack, HTTP, and the port, 80. The script automatically launches the website, and we can see HNF Tactical's homepage. We can also run through some of the other pages, such as weapons, defense gear, EMP systems, non-lethals, and contact information.
+
+[0:01:03] HUNTER: The script also runs GoBuster, which finds hidden files within directories hosted by the website. Scrolling through, we can find a page that looks interesting, diagnostics.php. By manually entering this into the address bar at the website, we can access the page and find an admin access code.
+
+[0:01:29] HUNTER: The diagnostics page presents a ping test and we can see its execution. We can try to take advantage of this with command injection. This script allows us to generate a reverse TCP shell payload and it will save it into our Black Sentinel directory.
+
+[0:01:52] HUNTER: Now, on the same machine, we can open up two terminal windows. On the first, we'll move into the black Sentinel directory where the payload was saved. From here, we can start a Python server to host the files that are there. From the second terminal, we'll start a Netcat listener over port 4444.
+
+[0:02:19] HUNTER: Now we can begin our command injection. The first command tells the Windows machine to go to our locally hosted Python server and download the reverse.exe payload. We can see that it was completed successfully. And now looking in the terminals, we can see on our server that there was a get request for that file.
+
+[0:02:44] HUNTER: Our second command will tell the Windows machine to go to the path where the file was downloaded and executed. 
+
+[0:02:44] FRANKIE: Thank you, Hunter. My name is Frankie Bruno and I'll be taking over from here. What you just saw was Hunter executing that malicious file that is on our victim's computer. On our left side, we have our Python server running and our right side, we have our Netcat listener. We now have reverse shell access and we are making our way to the desktop of our victim.
+
+[0:03:14] FRANKIE: And look what we found here. We see a logs folder. Let's see what's inside of that. Whoa, look at all that. We have several CSV files here. Let's see what's inside of the product inventory just to confirm that the goods are legitimate. Let's go ahead and copy all that.
+
+[0:03:46] FRANKIE: Now we're going to take this and we are going to put it on our Kali Linux machine. Now that they're there, we're going to go ahead and run Splunk. Splunk is going to allow us to examine these .csv files and see what's inside. Perfect. Now that Splunk's loaded on our localhost,
+
+[0:04:18] FRANKIE: Let's go ahead and open it up. Bam. All right, let's have some fun. We're gonna go ahead and we're gonna search our data. To save us time, we already preloaded all of the .csv files, but now we're gonna go ahead and check out our product inventory CSV.
+
+[0:04:54] FRANKIE: Look at all the goods. Now we're gonna go ahead and pipe that. Let's narrow this down. We're gonna do stats. We're gonna go as products by product name. So we'll be looking at all the products by name inside of the products table. Would you look at that? Let's go ahead and give you a visualization. Bam. Taste the rainbow. There we go.
+
+[0:05:23] FRANKIE: Mesmerizing, isn't it? And that's our project. I'm Frankie. And I'm Hunter.
+
+[END OF TRANSCRIPT]
+
+## Key Demonstration Points:
+
+### Technical Skills Demonstrated:
+- Python network scanning automation
+- Nmap integration and target identification
+- GoBuster directory enumeration
+- Command injection exploitation
+- Reverse shell payload generation and delivery
+- Data exfiltration techniques
+- Splunk SIEM analysis and visualization
+
+### Tools & Technologies Used:
+- SentinelScan.py (custom Python script)
+- Nmap (network scanning)
+- GoBuster (directory enumeration)
+- Python HTTP server (payload hosting)
+- Netcat (reverse shell listener)
+- Command injection techniques
+- Splunk Enterprise (data analysis)
+- CSV data processing and visualization
+
+### Attack Chain Demonstrated:
+1. Network reconnaissance and target identification
+2. Web application enumeration
+3. Hidden directory discovery
+4. Command injection vulnerability exploitation
+5. Payload generation and delivery
+6. Reverse shell establishment
+7. Data exfiltration
+8. SIEM analysis and threat intelligence

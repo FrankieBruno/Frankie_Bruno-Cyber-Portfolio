@@ -68,10 +68,26 @@ The simulation integrates both offensive and defensive tools, combining **red te
 ---
 
 ## 🚀 Results
-- Successfully emulated a **full ransomware attack chain** from exploitation to exfiltration.  
-- Demonstrated **cross-functional Purple Team skills**: Red Team (attack simulation) + Blue Team (detection, response, policy hardening).  
-- Showcased **web development + Python scripting + SIEM analysis** in a single project.  
-- Produced real-world **incident detection dashboards** in Splunk.  
+- Successfully emulated a **full ransomware attack chain** from exploitation to exfiltration.
+- Demonstrated **cross-functional Purple Team skills**: Red Team (attack simulation) + Blue Team (detection, response, policy hardening).
+- Showcased **web development + Python scripting + SIEM analysis** in a single project.
+- Produced real-world **incident detection dashboards** in Splunk.
+
+---
+
+## 🎥 Video Demonstrations
+
+### 🔍 Black Sentinel Demo Video
+📹 **[Black Sentinel Demo Video [Hunter McShan & Frankie Bruno]](videos/README.md)**
+*Complete 5:30-minute demonstration showcasing a full attack chain from reconnaissance to data exfiltration and SIEM analysis using the Black Sentinel framework.*
+
+**Video Highlights:**
+- **SentinelScan.py** automated network scanning and target identification
+- **GoBuster** directory enumeration discovering hidden diagnostics.php page
+- **Command injection** exploitation and reverse shell payload delivery
+- **Data exfiltration** of CSV files from compromised Windows machine
+- **Splunk SIEM** analysis with data visualization and threat intelligence
+- **Purple team methodology** demonstrating both offensive and defensive capabilities
 
 ---
 
